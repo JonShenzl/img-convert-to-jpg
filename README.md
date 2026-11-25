@@ -2,6 +2,8 @@
 
 Windows 右键菜单批量把图片转成 JPG 的小工具，没有主界面：选中图片、右键、转换，完成即退出。
 
+![转换进度提示](docs/preview.png)
+
 ## 功能
 
 - 资源管理器多选图片 → 右键 →「显示更多选项」→「转换为 JPG」
@@ -73,3 +75,8 @@ settings.ini            配置模板
 ## 许可
 
 本项目采用自定义非商业许可：自由复制、修改，禁止商业使用；整合或再分发时必须注明出处（Jon.Shen，Jon.Shen@Foxmail.com）。详见 [LICENSE](LICENSE)。
+
+## 相关工具
+
+- [世界时钟动态壁纸](https://github.com/JonShenzl/world-clock-wallpaper)
+- [公网IP查询](https://github.com/JonShenzl/public-ip-query)
