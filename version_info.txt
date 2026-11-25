@@ -18,7 +18,7 @@ VSVersionInfo(
           StringStruct('FileDescription', 'ImgConvertToJpg'),
           StringStruct('FileVersion', '2.7.5'),
           StringStruct('InternalName', 'ImgConvertToJpg'),
-          StringStruct('LegalCopyright', 'Copyright © 2026 Jon.Shen@Foxmail.Com'),
+          StringStruct('LegalCopyright', 'Copyright © 2026 Jon.Shen (Jon.Shen@Foxmail.com). Non-commercial use only; attribution required.'),
           StringStruct('OriginalFilename', 'ImgConvertToJpg.exe'),
           StringStruct('ProductName', 'ImgConvertToJpg'),
           StringStruct('ProductVersion', '2.7.5')

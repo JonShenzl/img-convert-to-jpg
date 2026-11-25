@@ -69,3 +69,7 @@ settings.ini            配置模板
 - 只写入 `HKEY_CURRENT_USER`，不修改系统级注册表
 - 支持 Windows 10 / 11；Windows 11 的右键菜单在「显示更多选项」中
 - exe 未签名，首次运行可能触发 SmartScreen 提示
+
+## 许可
+
+本项目采用自定义非商业许可：自由复制、修改，禁止商业使用；整合或再分发时必须注明出处（Jon.Shen，Jon.Shen@Foxmail.com）。详见 [LICENSE](LICENSE)。

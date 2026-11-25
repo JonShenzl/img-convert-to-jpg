@@ -1,5 +1,7 @@
 Windows Registry Editor Version 5.00
 
+; Copyright (c) 2026 Jon.Shen (Jon.Shen@Foxmail.com)
+; 自由复制、修改；禁止商业使用；整合或再分发需注明出处。
 ; ImgConvertToJpg：注册右键菜单 + 开机自启
 ; 安装路径固定为 C:\Tools\ImgConvertToJpg\ImgConvertToJpg.exe，升级版本无需重新导入
 ; 双击导入即可，无需管理员；菜单入口：右键 → 显示更多选项 → 转换为 JPG
