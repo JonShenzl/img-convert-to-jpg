@@ -1,0 +1,545 @@
+Windows Registry Editor Version 5.00
+
+; ImgConvertToJpg：注册右键菜单 + 开机自启
+; 安装路径固定为 C:\Tools\ImgConvertToJpg\ImgConvertToJpg.exe，升级版本无需重新导入
+; 双击导入即可，无需管理员；菜单入口：右键 → 显示更多选项 → 转换为 JPG
+
+[HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.apng\shell\ImgConvertToJpg.Convert]
+@="转换为 JPG"
+"MUIVerb"="转换为 JPG"
+"MultiSelectModel"="Player"
+"Icon"="\"C:\\Tools\\ImgConvertToJpg\\ImgConvertToJpg.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.apng\shell\ImgConvertToJpg.Convert\command]
+@="\"C:\\Tools\\ImgConvertToJpg\\ImgConvertToJpg.exe\" --convert \"%1\""
+
+[HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.blp\shell\ImgConvertToJpg.Convert]
+@="转换为 JPG"
+"MUIVerb"="转换为 JPG"
+"MultiSelectModel"="Player"
+"Icon"="\"C:\\Tools\\ImgConvertToJpg\\ImgConvertToJpg.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.blp\shell\ImgConvertToJpg.Convert\command]
+@="\"C:\\Tools\\ImgConvertToJpg\\ImgConvertToJpg.exe\" --convert \"%1\""
+
+[HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.bmp\shell\ImgConvertToJpg.Convert]
+@="转换为 JPG"
+"MUIVerb"="转换为 JPG"
+"MultiSelectModel"="Player"
+"Icon"="\"C:\\Tools\\ImgConvertToJpg\\ImgConvertToJpg.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.bmp\shell\ImgConvertToJpg.Convert\command]
+@="\"C:\\Tools\\ImgConvertToJpg\\ImgConvertToJpg.exe\" --convert \"%1\""
+
+[HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.bw\shell\ImgConvertToJpg.Convert]
+@="转换为 JPG"
+"MUIVerb"="转换为 JPG"
+"MultiSelectModel"="Player"
+"Icon"="\"C:\\Tools\\ImgConvertToJpg\\ImgConvertToJpg.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.bw\shell\ImgConvertToJpg.Convert\command]
+@="\"C:\\Tools\\ImgConvertToJpg\\ImgConvertToJpg.exe\" --convert \"%1\""
+
+[HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.cur\shell\ImgConvertToJpg.Convert]
+@="转换为 JPG"
+"MUIVerb"="转换为 JPG"
+"MultiSelectModel"="Player"
+"Icon"="\"C:\\Tools\\ImgConvertToJpg\\ImgConvertToJpg.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.cur\shell\ImgConvertToJpg.Convert\command]
+@="\"C:\\Tools\\ImgConvertToJpg\\ImgConvertToJpg.exe\" --convert \"%1\""
+
+[HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.dcx\shell\ImgConvertToJpg.Convert]
+@="转换为 JPG"
+"MUIVerb"="转换为 JPG"
+"MultiSelectModel"="Player"
+"Icon"="\"C:\\Tools\\ImgConvertToJpg\\ImgConvertToJpg.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.dcx\shell\ImgConvertToJpg.Convert\command]
+@="\"C:\\Tools\\ImgConvertToJpg\\ImgConvertToJpg.exe\" --convert \"%1\""
+
+[HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.dds\shell\ImgConvertToJpg.Convert]
+@="转换为 JPG"
+"MUIVerb"="转换为 JPG"
+"MultiSelectModel"="Player"
+"Icon"="\"C:\\Tools\\ImgConvertToJpg\\ImgConvertToJpg.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.dds\shell\ImgConvertToJpg.Convert\command]
+@="\"C:\\Tools\\ImgConvertToJpg\\ImgConvertToJpg.exe\" --convert \"%1\""
+
+[HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.dib\shell\ImgConvertToJpg.Convert]
+@="转换为 JPG"
+"MUIVerb"="转换为 JPG"
+"MultiSelectModel"="Player"
+"Icon"="\"C:\\Tools\\ImgConvertToJpg\\ImgConvertToJpg.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.dib\shell\ImgConvertToJpg.Convert\command]
+@="\"C:\\Tools\\ImgConvertToJpg\\ImgConvertToJpg.exe\" --convert \"%1\""
+
+[HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.emf\shell\ImgConvertToJpg.Convert]
+@="转换为 JPG"
+"MUIVerb"="转换为 JPG"
+"MultiSelectModel"="Player"
+"Icon"="\"C:\\Tools\\ImgConvertToJpg\\ImgConvertToJpg.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.emf\shell\ImgConvertToJpg.Convert\command]
+@="\"C:\\Tools\\ImgConvertToJpg\\ImgConvertToJpg.exe\" --convert \"%1\""
+
+[HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.fit\shell\ImgConvertToJpg.Convert]
+@="转换为 JPG"
+"MUIVerb"="转换为 JPG"
+"MultiSelectModel"="Player"
+"Icon"="\"C:\\Tools\\ImgConvertToJpg\\ImgConvertToJpg.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.fit\shell\ImgConvertToJpg.Convert\command]
+@="\"C:\\Tools\\ImgConvertToJpg\\ImgConvertToJpg.exe\" --convert \"%1\""
+
+[HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.fits\shell\ImgConvertToJpg.Convert]
+@="转换为 JPG"
+"MUIVerb"="转换为 JPG"
+"MultiSelectModel"="Player"
+"Icon"="\"C:\\Tools\\ImgConvertToJpg\\ImgConvertToJpg.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.fits\shell\ImgConvertToJpg.Convert\command]
+@="\"C:\\Tools\\ImgConvertToJpg\\ImgConvertToJpg.exe\" --convert \"%1\""
+
+[HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.flc\shell\ImgConvertToJpg.Convert]
+@="转换为 JPG"
+"MUIVerb"="转换为 JPG"
+"MultiSelectModel"="Player"
+"Icon"="\"C:\\Tools\\ImgConvertToJpg\\ImgConvertToJpg.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.flc\shell\ImgConvertToJpg.Convert\command]
+@="\"C:\\Tools\\ImgConvertToJpg\\ImgConvertToJpg.exe\" --convert \"%1\""
+
+[HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.fli\shell\ImgConvertToJpg.Convert]
+@="转换为 JPG"
+"MUIVerb"="转换为 JPG"
+"MultiSelectModel"="Player"
+"Icon"="\"C:\\Tools\\ImgConvertToJpg\\ImgConvertToJpg.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.fli\shell\ImgConvertToJpg.Convert\command]
+@="\"C:\\Tools\\ImgConvertToJpg\\ImgConvertToJpg.exe\" --convert \"%1\""
+
+[HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.ftc\shell\ImgConvertToJpg.Convert]
+@="转换为 JPG"
+"MUIVerb"="转换为 JPG"
+"MultiSelectModel"="Player"
+"Icon"="\"C:\\Tools\\ImgConvertToJpg\\ImgConvertToJpg.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.ftc\shell\ImgConvertToJpg.Convert\command]
+@="\"C:\\Tools\\ImgConvertToJpg\\ImgConvertToJpg.exe\" --convert \"%1\""
+
+[HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.ftu\shell\ImgConvertToJpg.Convert]
+@="转换为 JPG"
+"MUIVerb"="转换为 JPG"
+"MultiSelectModel"="Player"
+"Icon"="\"C:\\Tools\\ImgConvertToJpg\\ImgConvertToJpg.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.ftu\shell\ImgConvertToJpg.Convert\command]
+@="\"C:\\Tools\\ImgConvertToJpg\\ImgConvertToJpg.exe\" --convert \"%1\""
+
+[HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.gbr\shell\ImgConvertToJpg.Convert]
+@="转换为 JPG"
+"MUIVerb"="转换为 JPG"
+"MultiSelectModel"="Player"
+"Icon"="\"C:\\Tools\\ImgConvertToJpg\\ImgConvertToJpg.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.gbr\shell\ImgConvertToJpg.Convert\command]
+@="\"C:\\Tools\\ImgConvertToJpg\\ImgConvertToJpg.exe\" --convert \"%1\""
+
+[HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.gif\shell\ImgConvertToJpg.Convert]
+@="转换为 JPG"
+"MUIVerb"="转换为 JPG"
+"MultiSelectModel"="Player"
+"Icon"="\"C:\\Tools\\ImgConvertToJpg\\ImgConvertToJpg.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.gif\shell\ImgConvertToJpg.Convert\command]
+@="\"C:\\Tools\\ImgConvertToJpg\\ImgConvertToJpg.exe\" --convert \"%1\""
+
+[HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.icb\shell\ImgConvertToJpg.Convert]
+@="转换为 JPG"
+"MUIVerb"="转换为 JPG"
+"MultiSelectModel"="Player"
+"Icon"="\"C:\\Tools\\ImgConvertToJpg\\ImgConvertToJpg.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.icb\shell\ImgConvertToJpg.Convert\command]
+@="\"C:\\Tools\\ImgConvertToJpg\\ImgConvertToJpg.exe\" --convert \"%1\""
+
+[HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.icns\shell\ImgConvertToJpg.Convert]
+@="转换为 JPG"
+"MUIVerb"="转换为 JPG"
+"MultiSelectModel"="Player"
+"Icon"="\"C:\\Tools\\ImgConvertToJpg\\ImgConvertToJpg.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.icns\shell\ImgConvertToJpg.Convert\command]
+@="\"C:\\Tools\\ImgConvertToJpg\\ImgConvertToJpg.exe\" --convert \"%1\""
+
+[HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.ico\shell\ImgConvertToJpg.Convert]
+@="转换为 JPG"
+"MUIVerb"="转换为 JPG"
+"MultiSelectModel"="Player"
+"Icon"="\"C:\\Tools\\ImgConvertToJpg\\ImgConvertToJpg.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.ico\shell\ImgConvertToJpg.Convert\command]
+@="\"C:\\Tools\\ImgConvertToJpg\\ImgConvertToJpg.exe\" --convert \"%1\""
+
+[HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.iim\shell\ImgConvertToJpg.Convert]
+@="转换为 JPG"
+"MUIVerb"="转换为 JPG"
+"MultiSelectModel"="Player"
+"Icon"="\"C:\\Tools\\ImgConvertToJpg\\ImgConvertToJpg.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.iim\shell\ImgConvertToJpg.Convert\command]
+@="\"C:\\Tools\\ImgConvertToJpg\\ImgConvertToJpg.exe\" --convert \"%1\""
+
+[HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.im\shell\ImgConvertToJpg.Convert]
+@="转换为 JPG"
+"MUIVerb"="转换为 JPG"
+"MultiSelectModel"="Player"
+"Icon"="\"C:\\Tools\\ImgConvertToJpg\\ImgConvertToJpg.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.im\shell\ImgConvertToJpg.Convert\command]
+@="\"C:\\Tools\\ImgConvertToJpg\\ImgConvertToJpg.exe\" --convert \"%1\""
+
+[HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.j2c\shell\ImgConvertToJpg.Convert]
+@="转换为 JPG"
+"MUIVerb"="转换为 JPG"
+"MultiSelectModel"="Player"
+"Icon"="\"C:\\Tools\\ImgConvertToJpg\\ImgConvertToJpg.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.j2c\shell\ImgConvertToJpg.Convert\command]
+@="\"C:\\Tools\\ImgConvertToJpg\\ImgConvertToJpg.exe\" --convert \"%1\""
+
+[HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.j2k\shell\ImgConvertToJpg.Convert]
+@="转换为 JPG"
+"MUIVerb"="转换为 JPG"
+"MultiSelectModel"="Player"
+"Icon"="\"C:\\Tools\\ImgConvertToJpg\\ImgConvertToJpg.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.j2k\shell\ImgConvertToJpg.Convert\command]
+@="\"C:\\Tools\\ImgConvertToJpg\\ImgConvertToJpg.exe\" --convert \"%1\""
+
+[HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.jfif\shell\ImgConvertToJpg.Convert]
+@="转换为 JPG"
+"MUIVerb"="转换为 JPG"
+"MultiSelectModel"="Player"
+"Icon"="\"C:\\Tools\\ImgConvertToJpg\\ImgConvertToJpg.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.jfif\shell\ImgConvertToJpg.Convert\command]
+@="\"C:\\Tools\\ImgConvertToJpg\\ImgConvertToJpg.exe\" --convert \"%1\""
+
+[HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.jp2\shell\ImgConvertToJpg.Convert]
+@="转换为 JPG"
+"MUIVerb"="转换为 JPG"
+"MultiSelectModel"="Player"
+"Icon"="\"C:\\Tools\\ImgConvertToJpg\\ImgConvertToJpg.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.jp2\shell\ImgConvertToJpg.Convert\command]
+@="\"C:\\Tools\\ImgConvertToJpg\\ImgConvertToJpg.exe\" --convert \"%1\""
+
+[HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.jpc\shell\ImgConvertToJpg.Convert]
+@="转换为 JPG"
+"MUIVerb"="转换为 JPG"
+"MultiSelectModel"="Player"
+"Icon"="\"C:\\Tools\\ImgConvertToJpg\\ImgConvertToJpg.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.jpc\shell\ImgConvertToJpg.Convert\command]
+@="\"C:\\Tools\\ImgConvertToJpg\\ImgConvertToJpg.exe\" --convert \"%1\""
+
+[HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.jpe\shell\ImgConvertToJpg.Convert]
+@="转换为 JPG"
+"MUIVerb"="转换为 JPG"
+"MultiSelectModel"="Player"
+"Icon"="\"C:\\Tools\\ImgConvertToJpg\\ImgConvertToJpg.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.jpe\shell\ImgConvertToJpg.Convert\command]
+@="\"C:\\Tools\\ImgConvertToJpg\\ImgConvertToJpg.exe\" --convert \"%1\""
+
+[HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.jpeg\shell\ImgConvertToJpg.Convert]
+@="转换为 JPG"
+"MUIVerb"="转换为 JPG"
+"MultiSelectModel"="Player"
+"Icon"="\"C:\\Tools\\ImgConvertToJpg\\ImgConvertToJpg.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.jpeg\shell\ImgConvertToJpg.Convert\command]
+@="\"C:\\Tools\\ImgConvertToJpg\\ImgConvertToJpg.exe\" --convert \"%1\""
+
+[HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.jpf\shell\ImgConvertToJpg.Convert]
+@="转换为 JPG"
+"MUIVerb"="转换为 JPG"
+"MultiSelectModel"="Player"
+"Icon"="\"C:\\Tools\\ImgConvertToJpg\\ImgConvertToJpg.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.jpf\shell\ImgConvertToJpg.Convert\command]
+@="\"C:\\Tools\\ImgConvertToJpg\\ImgConvertToJpg.exe\" --convert \"%1\""
+
+[HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.jpg\shell\ImgConvertToJpg.Convert]
+@="转换为 JPG"
+"MUIVerb"="转换为 JPG"
+"MultiSelectModel"="Player"
+"Icon"="\"C:\\Tools\\ImgConvertToJpg\\ImgConvertToJpg.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.jpg\shell\ImgConvertToJpg.Convert\command]
+@="\"C:\\Tools\\ImgConvertToJpg\\ImgConvertToJpg.exe\" --convert \"%1\""
+
+[HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.jpx\shell\ImgConvertToJpg.Convert]
+@="转换为 JPG"
+"MUIVerb"="转换为 JPG"
+"MultiSelectModel"="Player"
+"Icon"="\"C:\\Tools\\ImgConvertToJpg\\ImgConvertToJpg.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.jpx\shell\ImgConvertToJpg.Convert\command]
+@="\"C:\\Tools\\ImgConvertToJpg\\ImgConvertToJpg.exe\" --convert \"%1\""
+
+[HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.mpo\shell\ImgConvertToJpg.Convert]
+@="转换为 JPG"
+"MUIVerb"="转换为 JPG"
+"MultiSelectModel"="Player"
+"Icon"="\"C:\\Tools\\ImgConvertToJpg\\ImgConvertToJpg.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.mpo\shell\ImgConvertToJpg.Convert\command]
+@="\"C:\\Tools\\ImgConvertToJpg\\ImgConvertToJpg.exe\" --convert \"%1\""
+
+[HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.msp\shell\ImgConvertToJpg.Convert]
+@="转换为 JPG"
+"MUIVerb"="转换为 JPG"
+"MultiSelectModel"="Player"
+"Icon"="\"C:\\Tools\\ImgConvertToJpg\\ImgConvertToJpg.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.msp\shell\ImgConvertToJpg.Convert\command]
+@="\"C:\\Tools\\ImgConvertToJpg\\ImgConvertToJpg.exe\" --convert \"%1\""
+
+[HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.palm\shell\ImgConvertToJpg.Convert]
+@="转换为 JPG"
+"MUIVerb"="转换为 JPG"
+"MultiSelectModel"="Player"
+"Icon"="\"C:\\Tools\\ImgConvertToJpg\\ImgConvertToJpg.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.palm\shell\ImgConvertToJpg.Convert\command]
+@="\"C:\\Tools\\ImgConvertToJpg\\ImgConvertToJpg.exe\" --convert \"%1\""
+
+[HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.pbm\shell\ImgConvertToJpg.Convert]
+@="转换为 JPG"
+"MUIVerb"="转换为 JPG"
+"MultiSelectModel"="Player"
+"Icon"="\"C:\\Tools\\ImgConvertToJpg\\ImgConvertToJpg.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.pbm\shell\ImgConvertToJpg.Convert\command]
+@="\"C:\\Tools\\ImgConvertToJpg\\ImgConvertToJpg.exe\" --convert \"%1\""
+
+[HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.pcd\shell\ImgConvertToJpg.Convert]
+@="转换为 JPG"
+"MUIVerb"="转换为 JPG"
+"MultiSelectModel"="Player"
+"Icon"="\"C:\\Tools\\ImgConvertToJpg\\ImgConvertToJpg.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.pcd\shell\ImgConvertToJpg.Convert\command]
+@="\"C:\\Tools\\ImgConvertToJpg\\ImgConvertToJpg.exe\" --convert \"%1\""
+
+[HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.pcx\shell\ImgConvertToJpg.Convert]
+@="转换为 JPG"
+"MUIVerb"="转换为 JPG"
+"MultiSelectModel"="Player"
+"Icon"="\"C:\\Tools\\ImgConvertToJpg\\ImgConvertToJpg.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.pcx\shell\ImgConvertToJpg.Convert\command]
+@="\"C:\\Tools\\ImgConvertToJpg\\ImgConvertToJpg.exe\" --convert \"%1\""
+
+[HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.pfm\shell\ImgConvertToJpg.Convert]
+@="转换为 JPG"
+"MUIVerb"="转换为 JPG"
+"MultiSelectModel"="Player"
+"Icon"="\"C:\\Tools\\ImgConvertToJpg\\ImgConvertToJpg.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.pfm\shell\ImgConvertToJpg.Convert\command]
+@="\"C:\\Tools\\ImgConvertToJpg\\ImgConvertToJpg.exe\" --convert \"%1\""
+
+[HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.pgm\shell\ImgConvertToJpg.Convert]
+@="转换为 JPG"
+"MUIVerb"="转换为 JPG"
+"MultiSelectModel"="Player"
+"Icon"="\"C:\\Tools\\ImgConvertToJpg\\ImgConvertToJpg.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.pgm\shell\ImgConvertToJpg.Convert\command]
+@="\"C:\\Tools\\ImgConvertToJpg\\ImgConvertToJpg.exe\" --convert \"%1\""
+
+[HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.png\shell\ImgConvertToJpg.Convert]
+@="转换为 JPG"
+"MUIVerb"="转换为 JPG"
+"MultiSelectModel"="Player"
+"Icon"="\"C:\\Tools\\ImgConvertToJpg\\ImgConvertToJpg.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.png\shell\ImgConvertToJpg.Convert\command]
+@="\"C:\\Tools\\ImgConvertToJpg\\ImgConvertToJpg.exe\" --convert \"%1\""
+
+[HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.pnm\shell\ImgConvertToJpg.Convert]
+@="转换为 JPG"
+"MUIVerb"="转换为 JPG"
+"MultiSelectModel"="Player"
+"Icon"="\"C:\\Tools\\ImgConvertToJpg\\ImgConvertToJpg.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.pnm\shell\ImgConvertToJpg.Convert\command]
+@="\"C:\\Tools\\ImgConvertToJpg\\ImgConvertToJpg.exe\" --convert \"%1\""
+
+[HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.ppm\shell\ImgConvertToJpg.Convert]
+@="转换为 JPG"
+"MUIVerb"="转换为 JPG"
+"MultiSelectModel"="Player"
+"Icon"="\"C:\\Tools\\ImgConvertToJpg\\ImgConvertToJpg.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.ppm\shell\ImgConvertToJpg.Convert\command]
+@="\"C:\\Tools\\ImgConvertToJpg\\ImgConvertToJpg.exe\" --convert \"%1\""
+
+[HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.psd\shell\ImgConvertToJpg.Convert]
+@="转换为 JPG"
+"MUIVerb"="转换为 JPG"
+"MultiSelectModel"="Player"
+"Icon"="\"C:\\Tools\\ImgConvertToJpg\\ImgConvertToJpg.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.psd\shell\ImgConvertToJpg.Convert\command]
+@="\"C:\\Tools\\ImgConvertToJpg\\ImgConvertToJpg.exe\" --convert \"%1\""
+
+[HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.pxr\shell\ImgConvertToJpg.Convert]
+@="转换为 JPG"
+"MUIVerb"="转换为 JPG"
+"MultiSelectModel"="Player"
+"Icon"="\"C:\\Tools\\ImgConvertToJpg\\ImgConvertToJpg.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.pxr\shell\ImgConvertToJpg.Convert\command]
+@="\"C:\\Tools\\ImgConvertToJpg\\ImgConvertToJpg.exe\" --convert \"%1\""
+
+[HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.qoi\shell\ImgConvertToJpg.Convert]
+@="转换为 JPG"
+"MUIVerb"="转换为 JPG"
+"MultiSelectModel"="Player"
+"Icon"="\"C:\\Tools\\ImgConvertToJpg\\ImgConvertToJpg.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.qoi\shell\ImgConvertToJpg.Convert\command]
+@="\"C:\\Tools\\ImgConvertToJpg\\ImgConvertToJpg.exe\" --convert \"%1\""
+
+[HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.ras\shell\ImgConvertToJpg.Convert]
+@="转换为 JPG"
+"MUIVerb"="转换为 JPG"
+"MultiSelectModel"="Player"
+"Icon"="\"C:\\Tools\\ImgConvertToJpg\\ImgConvertToJpg.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.ras\shell\ImgConvertToJpg.Convert\command]
+@="\"C:\\Tools\\ImgConvertToJpg\\ImgConvertToJpg.exe\" --convert \"%1\""
+
+[HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.rgb\shell\ImgConvertToJpg.Convert]
+@="转换为 JPG"
+"MUIVerb"="转换为 JPG"
+"MultiSelectModel"="Player"
+"Icon"="\"C:\\Tools\\ImgConvertToJpg\\ImgConvertToJpg.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.rgb\shell\ImgConvertToJpg.Convert\command]
+@="\"C:\\Tools\\ImgConvertToJpg\\ImgConvertToJpg.exe\" --convert \"%1\""
+
+[HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.rgba\shell\ImgConvertToJpg.Convert]
+@="转换为 JPG"
+"MUIVerb"="转换为 JPG"
+"MultiSelectModel"="Player"
+"Icon"="\"C:\\Tools\\ImgConvertToJpg\\ImgConvertToJpg.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.rgba\shell\ImgConvertToJpg.Convert\command]
+@="\"C:\\Tools\\ImgConvertToJpg\\ImgConvertToJpg.exe\" --convert \"%1\""
+
+[HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.sgi\shell\ImgConvertToJpg.Convert]
+@="转换为 JPG"
+"MUIVerb"="转换为 JPG"
+"MultiSelectModel"="Player"
+"Icon"="\"C:\\Tools\\ImgConvertToJpg\\ImgConvertToJpg.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.sgi\shell\ImgConvertToJpg.Convert\command]
+@="\"C:\\Tools\\ImgConvertToJpg\\ImgConvertToJpg.exe\" --convert \"%1\""
+
+[HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.tga\shell\ImgConvertToJpg.Convert]
+@="转换为 JPG"
+"MUIVerb"="转换为 JPG"
+"MultiSelectModel"="Player"
+"Icon"="\"C:\\Tools\\ImgConvertToJpg\\ImgConvertToJpg.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.tga\shell\ImgConvertToJpg.Convert\command]
+@="\"C:\\Tools\\ImgConvertToJpg\\ImgConvertToJpg.exe\" --convert \"%1\""
+
+[HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.tif\shell\ImgConvertToJpg.Convert]
+@="转换为 JPG"
+"MUIVerb"="转换为 JPG"
+"MultiSelectModel"="Player"
+"Icon"="\"C:\\Tools\\ImgConvertToJpg\\ImgConvertToJpg.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.tif\shell\ImgConvertToJpg.Convert\command]
+@="\"C:\\Tools\\ImgConvertToJpg\\ImgConvertToJpg.exe\" --convert \"%1\""
+
+[HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.tiff\shell\ImgConvertToJpg.Convert]
+@="转换为 JPG"
+"MUIVerb"="转换为 JPG"
+"MultiSelectModel"="Player"
+"Icon"="\"C:\\Tools\\ImgConvertToJpg\\ImgConvertToJpg.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.tiff\shell\ImgConvertToJpg.Convert\command]
+@="\"C:\\Tools\\ImgConvertToJpg\\ImgConvertToJpg.exe\" --convert \"%1\""
+
+[HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.vda\shell\ImgConvertToJpg.Convert]
+@="转换为 JPG"
+"MUIVerb"="转换为 JPG"
+"MultiSelectModel"="Player"
+"Icon"="\"C:\\Tools\\ImgConvertToJpg\\ImgConvertToJpg.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.vda\shell\ImgConvertToJpg.Convert\command]
+@="\"C:\\Tools\\ImgConvertToJpg\\ImgConvertToJpg.exe\" --convert \"%1\""
+
+[HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.vst\shell\ImgConvertToJpg.Convert]
+@="转换为 JPG"
+"MUIVerb"="转换为 JPG"
+"MultiSelectModel"="Player"
+"Icon"="\"C:\\Tools\\ImgConvertToJpg\\ImgConvertToJpg.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.vst\shell\ImgConvertToJpg.Convert\command]
+@="\"C:\\Tools\\ImgConvertToJpg\\ImgConvertToJpg.exe\" --convert \"%1\""
+
+[HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.webp\shell\ImgConvertToJpg.Convert]
+@="转换为 JPG"
+"MUIVerb"="转换为 JPG"
+"MultiSelectModel"="Player"
+"Icon"="\"C:\\Tools\\ImgConvertToJpg\\ImgConvertToJpg.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.webp\shell\ImgConvertToJpg.Convert\command]
+@="\"C:\\Tools\\ImgConvertToJpg\\ImgConvertToJpg.exe\" --convert \"%1\""
+
+[HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.wmf\shell\ImgConvertToJpg.Convert]
+@="转换为 JPG"
+"MUIVerb"="转换为 JPG"
+"MultiSelectModel"="Player"
+"Icon"="\"C:\\Tools\\ImgConvertToJpg\\ImgConvertToJpg.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.wmf\shell\ImgConvertToJpg.Convert\command]
+@="\"C:\\Tools\\ImgConvertToJpg\\ImgConvertToJpg.exe\" --convert \"%1\""
+
+[HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.xbm\shell\ImgConvertToJpg.Convert]
+@="转换为 JPG"
+"MUIVerb"="转换为 JPG"
+"MultiSelectModel"="Player"
+"Icon"="\"C:\\Tools\\ImgConvertToJpg\\ImgConvertToJpg.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.xbm\shell\ImgConvertToJpg.Convert\command]
+@="\"C:\\Tools\\ImgConvertToJpg\\ImgConvertToJpg.exe\" --convert \"%1\""
+
+[HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.xpm\shell\ImgConvertToJpg.Convert]
+@="转换为 JPG"
+"MUIVerb"="转换为 JPG"
+"MultiSelectModel"="Player"
+"Icon"="\"C:\\Tools\\ImgConvertToJpg\\ImgConvertToJpg.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.xpm\shell\ImgConvertToJpg.Convert\command]
+@="\"C:\\Tools\\ImgConvertToJpg\\ImgConvertToJpg.exe\" --convert \"%1\""
+
+[HKEY_CURRENT_USER\Software\ImgConvertToJpg]
+"Version"="2.7.5"
+"ExePath"="C:\\Tools\\ImgConvertToJpg\\ImgConvertToJpg.exe"
+"ExtensionCount"=dword:0000003b
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run]
+"ImgConvertToJpg"="\"C:\\Tools\\ImgConvertToJpg\\ImgConvertToJpg.exe\" --background"
+

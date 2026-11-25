@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# 构建产物
+build/
+dist/
+*.exe
+*.log
+
+# 编辑器
+.vs/
+.idea/
